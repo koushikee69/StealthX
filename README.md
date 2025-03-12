@@ -5,6 +5,12 @@ StealthX is a research project focused on **Linux dynamic linking and process hi
 ## 🚀 Project Overview
 StealthX demonstrates how shared object (.so) files can be used to override system functions, potentially hiding processes or modifying program behavior dynamically. It serves as an educational tool for security researchers and ethical hackers interested in low-level Linux internals.
 
+##**Technologies Used**
+-**Programming Language: C**
+-**Linux System Calls: execve, open, fopen, ptrace**
+-**Networking: Reverse shell execution via sockets**
+-**Dynamic Linking: LD_PRELOAD for function interception**
+
 ## 🔧 Features
 - **Intercept system calls dynamically** using `LD_PRELOAD`
 - **Modify process visibility** in system utilities (`ps`, `top`, `ls`, etc.)
