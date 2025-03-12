@@ -1,4 +1,4 @@
-# StealthX
+# StealthX-Dynamic Library Hijacking & Security Analysis
 
 StealthX is a research project focused on **Linux dynamic linking and process hiding** using `LD_PRELOAD`. This project explores methods for manipulating shared libraries to intercept system calls, providing insights into cybersecurity, stealth techniques, and process injection.
 
