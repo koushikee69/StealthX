@@ -33,7 +33,7 @@ sudo apt update && sudo apt install build-essential
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/yourusername/stealthx.git
+git clone https://github.com/koushikee69/StealthX.git
 cd stealthx
 ```
 
